@@ -1,0 +1,36 @@
+.chats-row div {
+    height: 50%;
+    border: 1px solid #ddd;
+    padding: 0px;
+}
+
+.media-object {
+    max-width: 64px;
+}
+
+.current-chat {
+    height: 100vh;
+    border: 1px solid #ddd;
+}
+
+.current-chat-area {
+    padding-top: 10px;
+    overflow: auto;
+    height: 92vh;
+}
+
+.chat-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 8vh;
+}
+
+.chat-input textarea {
+    width: 100%;
+    border: none;
+}
+
+.chat-input button {
+    position: absolute;
+    right: 10px;
+}
